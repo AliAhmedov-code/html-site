@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.umumi div{
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    background-color: rgb(233, 228, 228);
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px  rgb(75, 75, 75);
+    
+}
+.umumi {
+    display: flex;
+    background-color: rgb(136, 136, 136);
+    justify-content: space-evenly;
+    align-content: center;  
+    padding: 50px;
+}
+
+.umumi div:hover{
+    width: 430px;
+    height: 430px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px  rgb(75, 75, 75);
+    transition: width 0.1s;
+    
+}
+
+.umumi2 {
+    background-color: rgb(136, 136, 136);
+
+}
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;  
+    padding: 50px;
+}
+
+.container3 {
+    width: 500px;
+    list-style-type: "✓" ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
